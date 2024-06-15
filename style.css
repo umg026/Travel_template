@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #e9e7e7;
+}
+
+.nav_item1 {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_item1 a {
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+
+.nav_button {
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+
+}
+
+section {
+    background-color: #e9e7e7;
+    display: flex;
+    padding: 80px;
+}
+
+section .section_item1 h1 {
+    font-size: 60px;
+    letter-spacing: -2px;
+    line-height: 70px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+section .section_item1 p {
+    margin-top: 20px;
+    font-family: "Cardo";
+}
+
+.section_btn {
+    margin-top: 20px;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}
+
+
+.memory {
+    width: 100%;
+    height: 300px;
+    background-color: #232323;
+    display: flex;
+    /* padding: 30px; */
+    padding-top: 50px;
+    gap: 40px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.memory {
+    color: white;
+}
+
+.memory p {
+    margin-top: 25px;
+}
+
+.memory_btn {
+    margin-top: 25px;
+    background-color: #232323;
+    padding: 8px 30px;
+    color: white;
+    border: 2px solid white;
+}
+
+/* ========================= */
+.cards {
+    background-color: #e9e7e7;
+    display: flex;
+    padding: 50px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.line {
+    margin-top: 20px;
+    position: relative;
+    width: 120px;
+    height: 4px;
+    background-color: black;
+}
+
+.card_text {
+    margin-top: 20px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.text {
+    margin-top: 20px;
+    width: 380px;
+}
+
+/* ========================== */
+.aeroplane {
+    background-color: #e9e7e7;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.aero_content {
+    display: flex;
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.aero_content img {
+    margin: 150px 0px 50px 220px;
+}
+
+.aero_content h1 {
+    font-size: 68px;
+    letter-spacing: -2px;
+    line-height: 98px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+}
+
+.aero_content p {
+    padding-top: 50px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+}
+
+.aero_content .italic {
+    text-transform: lowercase;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.layer {
+    margin-top: 100px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+}
+
+.design1 {
+    height: 600px;
+    width: 230px;
+}
+
+.aero_content .aero_dark_img {
+    width: 300px;
+    margin: 20px 100px 0 -250px;
+}
+
+/* ======================= */
+
+.album {
+    background-color: #e9e7e7;
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    padding: 80px;
+}
+
+.album_large {
+    width: 400px;
+    height: 550px;
+}
+
+.album_inner_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner_sec2 {
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.inner_sec2 div h1 {
+    font-size: 25px;
+    letter-spacing: -1px;
+    padding: 10px;
+    line-height: 50px;
+    text-decoration: underline;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.inner_sec3 {
+    display: flex;
+    padding: 10px;
+    width: 400px;
+    flex-direction: column;
+}
+
+.fa-arrow-right {
+    font-size: 200px;
+    font-weight: 100;
+}
+
+/* =============================== */
+
+.section3 {
+    display: flex;
+    gap: 40px;
+    text-align: left;
+    background-color: #232323;
+    justify-content: center;
+}
+
+.section3 .image {
+    /* padding: px 0 0 0; */
+    margin-top: -20px;
+    width: 800px;
+    height: 750px;
+    object-fit: contain;
+}
+
+.section_inner{
+    padding: 80px 0 0 0;
+    color: white;
+}
+.section_inner h1 {
+    font-size: 46px;
+    letter-spacing: -1px;
+    line-height: 55px;
+    color: #e9e7e7;
+    font-weight: 700;
+    font-family: "Cardo";
+}
